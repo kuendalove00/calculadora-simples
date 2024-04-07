@@ -31,7 +31,7 @@ const calculate = (value) => {
 buttons.forEach((button) => {
     button.addEventListener("click", (e) => {
         e.preventDefault();
-        calculate(e.target.dataset.value)
+        calculate(e.target.dataset.value);
     });
     
 });
